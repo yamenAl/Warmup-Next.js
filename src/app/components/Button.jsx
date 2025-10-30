@@ -1,5 +1,8 @@
 export default function Button() {
     return (
-        <button>Im button</button>
+        <>
+            <a href="/about">about</a>
+            <button>Im button</button>
+        </>
     )
 }

@@ -4,7 +4,7 @@ import homeStyles from './styles/home.module.css'
 
 export default function Page() {
   return (
-    <main className={` ${pageStyles.Page}`}>
+    <main className={` ${homeStyles.body}`}>
         <h1 className={homeStyles.h1}>Hello, Welcome to my first Next.js App!</h1>
         <Button />
     </main>
